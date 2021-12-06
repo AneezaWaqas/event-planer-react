@@ -1,0 +1,45 @@
+.servicesInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+form .lable {
+  display: flex !important;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700 !important;
+}
+.sericeBorder {
+  padding: 2px 7px;
+  border: 8px solid #f2aaaa !important;
+}
+.border-bottom {
+  border-bottom: 1px solid #f2aaaa !important;
+  margin-bottom: 5px;
+}
+.serviceBtn {
+  justify-content: right;
+}
+.servicesImg {
+  width: 100%;
+  /* height: 80%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.servicesImg img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  margin-top: 49px;
+  margin-right: 208px;
+  margin-left: 170px;
+}
+@media (max-width: 768px) {
+  .sericeBorder {
+    /* padding: 2 px 7 px; */
+    border: 8px solid #f2aaaa !important;
+    width: 100%;
+  }
+}

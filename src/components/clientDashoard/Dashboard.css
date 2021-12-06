@@ -1,0 +1,14 @@
+.dashboardHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.tableDashboard {
+  margin: 0px 120px;
+  margin-top: 10px;
+}
+.table {
+  border-right: 1px solid;
+}

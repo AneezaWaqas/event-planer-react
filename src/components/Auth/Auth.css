@@ -1,0 +1,40 @@
+.auth {
+  margin-top: 100px;
+}
+.register {
+  margin-top: 40px;
+}
+.bgRegister {
+  width: 100%;
+  height: 100vh;
+}
+.bgRegister img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.loginBtn {
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+  padding: 10px 10px;
+  background-color: #faebe0;
+  box-shadow: 2px solid red;
+  border-radius: 15px;
+  box-shadow: 5px 8px 6px;
+}
+.loginBtn:hover {
+  background: #0000;
+}
+span {
+  color: red;
+}
+.btnAccount span{
+    color: blue;
+   
+}
+.btnAccount {
+    margin-top: 10px;
+    display: flex;
+   
+}
