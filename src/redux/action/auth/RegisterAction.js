@@ -15,7 +15,7 @@ export const registerAction = (state) => {
     };
     try {
       let data = await axios.post(
-        "https://eventplannerpk.herokuapp.com/auth/signup",
+        "https://event-planner12.herokuapp.com/auth/signup",
         state,
         config
       );

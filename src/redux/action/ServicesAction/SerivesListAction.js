@@ -13,7 +13,7 @@ export const servicesListAction = () =>{
        },
      };
      try {
-       const {data} = await axios.get('https://eventplannerpk.herokuapp.com/services', config);
+       const {data} = await axios.get('https://event-planner12.herokuapp.com/services', config);
        console.log("datafromSerivcesListAction", data.data)
        dispatch({type: SERVICES_LIST, payload: data.data})
        

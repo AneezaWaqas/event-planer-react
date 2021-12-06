@@ -11,7 +11,7 @@ export const loginAction = (state) =>{
      };
      try {
     //    dispatch({ type: SET_LOADER });
-       const {data} = await axios.post('https://eventplannerpk.herokuapp.com/auth/signin', state, config);
+       const {data} = await axios.post('https://event-planner12.herokuapp.com/auth/signin', state, config);
        console.log("datafromLoginAction", data)
     //    dispatch({type: CLOSE_LOADER});
        localStorage.setItem('myToken', data.access_token);

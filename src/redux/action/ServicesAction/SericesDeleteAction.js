@@ -11,7 +11,7 @@ export const servicesDeleteAction = async (serviceID) =>{
         },
       };
     
-       const {data} = await axios.delete(`https://eventplannerpk.herokuapp.com/services/?id=${serviceID}`, config);
+       const {data} = await axios.delete(`https://event-planner12.herokuapp.com/services/?id=${serviceID}`, config);
        console.log("delte-->", data)
        
  };

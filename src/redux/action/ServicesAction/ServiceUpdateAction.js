@@ -20,7 +20,7 @@ export const servicesUpdateAction = (state) =>{
        },
      };
      try {
-       const {data} = await axios.patch(`https://eventplannerpk.herokuapp.com/services/?id=${serviceId}`, obj, config);
+       const {data} = await axios.patch(`https://event-planner12.herokuapp.com/services/?id=${serviceId}`, obj, config);
        console.log("datafromSerivcesAction", data)
     //    dispatch({type: SERVICES_ADDED_SUCCESSFULLY, payload: data.message})
        

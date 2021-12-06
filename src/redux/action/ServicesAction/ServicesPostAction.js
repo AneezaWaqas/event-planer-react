@@ -13,7 +13,7 @@ export const servicesPostAction = (state) =>{
        },
      };
      try {
-       const {data} = await axios.post('https://eventplannerpk.herokuapp.com/services/add', state, config);
+       const {data} = await axios.post('https://event-planner12.herokuapp.com/services/add', state, config);
        console.log("datafromSerivcesAction", data)
        dispatch({type: SERVICES_ADDED_SUCCESSFULLY, payload: data.message})
        
